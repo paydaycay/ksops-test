@@ -17,4 +17,4 @@ spec:
           image: nginx:alpine
           envFrom:
             - secretRef:
-                name: test-secret
+                name: ksops-test
